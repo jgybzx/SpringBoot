@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.176.109:3306/springboot?useUnicode=true&characterEncoding=UTF8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+#这个是代表着要输出到控制台的打印日志内容
+logging:
+  level:
+    com.itheima.mapper: debug #要打印日志的包  :  要打印的日志级别

@@ -1,0 +1,23 @@
+<!-- 网页使用的语言 -->
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- 指定字符集 -->
+    <meta charset="utf-8">
+    <title>修改员工</title>
+</head>
+<body>
+<div class="container">
+    <center><h3>员工查看页面</h3></center>
+    <div class="form-group">
+        <label>姓名：</label>
+        <span th:text="${user.name}">张三</span>
+    </div>
+
+    <div class="form-group">
+        <label>年龄：</label>
+        <span th:text="${user.age}">30</span>
+    </div>
+
+</div>
+</body>
+</html>

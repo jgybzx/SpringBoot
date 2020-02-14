@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.itheima.property.User",
+      "sourceType": "com.itheima.property.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.itheima.property.User"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.property.User"
+    }
+  ],
+  "hints": []
+}

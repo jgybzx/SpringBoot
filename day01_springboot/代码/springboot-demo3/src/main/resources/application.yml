@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.176.109:3306/springboot?useUnicode=true&characterEncoding=UTF8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+#将mapper的所有xml文件都加载到spring容器当中
+#mybatis:
+#  mapper-locations: classpath:mappers/**
